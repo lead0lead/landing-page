@@ -1,0 +1,186 @@
+/*Colors and foont styles*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    border-style: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-cta,
+.cta-cta{
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.cta-cta{
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+}
+
+.header,
+.hero-banner,
+.footer,
+.header-button,
+.logo{
+    background-color: #1F2937;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text,
+.footer-text,
+.header-button a{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-cta,
+.cta-container{
+    background-color: #3882F6;
+}
+
+.cta-container{
+    border-radius: 8px;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-source{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Layout*/
+
+/*Header*/
+
+.header{
+    display: flex;
+    padding: 16px 128px;
+}
+
+.logo{
+    margin-right: auto;
+    padding: 0;
+}
+
+.header-links{
+    display: flex;
+}
+
+/*Hero-Banner*/
+
+.hero-banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+    padding: 32px 128px;
+}
+
+.hero-text{
+    flex-basis: 50;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 100%;
+}
+
+.hero-main-text{
+    margin: 0px 0px 16px 0px;
+}
+
+.hero-secondary-text{
+    margin-bottom: 16px;
+}
+
+.hero-img{
+    object-fit: cover;
+    flex-shrink:400;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/*Information Cards*/
+
+.information-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    max-width: 75%;
+    gap: 16px;
+}
+
+.information-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+}
+
+.information-text{
+    text-align: center;
+}
+
+/*Quote*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    padding: 64px 200px;
+    margin-top: 64px;
+}
+
+.quote-source{
+    align-self: flex-end;
+}
