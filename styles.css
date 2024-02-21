@@ -1,4 +1,4 @@
-/*Colors and foont styles*/
+/*Colors and font styles*/
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -17,11 +17,18 @@ button{
     border-radius: 8px;
     padding: 8px 16px;
     border-style: none;
+    margin: 0;
 }
 
 p{
     margin: 0;
     padding: 0;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .hero-cta,
@@ -57,6 +64,7 @@ p{
 
 .hero-secondary-text,
 .footer-text,
+.cta-secondary-text,
 .header-button a{
     font-size: 18px;
     color: #F9FAF8;
@@ -69,6 +77,12 @@ p{
 
 .cta-container{
     border-radius: 8px;
+}
+
+.cta-primary-text{
+    font-size:24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .information-header{
@@ -100,6 +114,7 @@ p{
 .header{
     display: flex;
     padding: 16px 128px;
+    justify-content: space-between;
 }
 
 .logo{
@@ -184,3 +199,32 @@ p{
 .quote-source{
     align-self: flex-end;
 }
+
+/*CTA*/
+
+.cta-container{
+    padding: 32px 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-text{
+    max-width: 75%;
+}
+
+.cta-primary-text,
+.cta-secondary-text{
+    margin: 0;
+}
+
+.footer{
+    display: stretch;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+
